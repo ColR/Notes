@@ -11,3 +11,11 @@ git diff *filename* - reports the difference between *filename* in the working d
 git commit -m "commit message" - permenantly moves changes in the staging area to the repository.
 
 git log - prints a log of the previous commits.
+
+git show HEAD - shows the HEAD of the most recent commit.
+
+git checkout HEAD *filename* - restores *filename* to its state befor the most recent commit.
+
+git reset HEAD *filename* - removes *flename* from the staging area and restores *filename* to its state before the most recent commit.
+
+git reset SHA - resets all files to their state at the SHA commit (SHA = first 7 characters of the commit).
